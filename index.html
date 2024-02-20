@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table border="1" width="35%" , height="45">
+        <thead>
+            <tr>
+                <th rowspan="2">Student Name</th>
+                <th colspan="2">Biology</th>
+                <th colspan="2">Chemistry</th>
+                <th colspan="2">Physics</th>
+            </tr>
+            <tr>
+                <th>Practical</th>
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Theory</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>jon Doe</td>
+                <td>A</td>
+                <td>A+</td>
+                <td>B</td>
+                <td>A</td>
+                <td>A</td>
+                <td>A-</td>
+            </tr>
+
+            <tr>
+                <td>David Evans</td>
+                <td>A+</td>
+                <td>A</td>
+                <td>B+</td>
+                <td>C</td>
+                <td>A-</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <hr>
+
+    <table border="1" width="35%" , height="45">
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+                <th colspan="2">Course</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Ninja</td>
+                <td>1</td>
+                <td>20</td>
+                <td>C++</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>Ninja</td>
+                <td>1</td>
+                <td>31</td>
+                <td colspan="2">Java</td>
+            </tr>
+            <tr>
+                <td>Ninja</td>
+                <td>1</td>
+                <td>29</td>
+                <td>JavaScript</td>
+                <td>R</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <ul>
+        <li>DSA
+            <ul>
+                <li>Array</li>
+                <li>Linked List</li>
+                <li>Stack</li>
+                <li>Queue</li>
+            </ul>
+        </li>
+        <li>web Technologies
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+        <li>Aptitude</li>
+        <li>Gate</li>
+        <li>Placement</li>
+    </ul>
+    <br>
+    <br>
+    <hr>
+
+    <ul>
+        <li>Item1</li>
+        <li>Item2
+            <ul>
+                <li>Sub Item 2.1</li>
+                <li>Sub Item 2.2</li>
+                <li>Sub Item 2.3</li>
+            </ul>
+        </li>
+
+        <li>Item 3</li>
+        <li>Item 4
+            <ul>
+                <li>Sub Item 4.1</li>
+                <li>Sub Item 4.2
+                    <ul>
+                        <li>Sub Item 4.2</li>
+                        <li>Sub Item 4.2</li>
+                    </ul>
+                </li>
+                <li>Sub Item 4.3</li>
+
+            </ul>
+        </li>
+        <li>Item 5</li>
+    </ul>
+    <br>
+    <br>
+    <hr>
+
+
+
+
+    <fieldset>
+        <legend>Student Info</legend>
+        <p>
+            <label for="">Name</label>
+            <br>
+            <input type="text" placeholder="">
+        </p>
+
+        <p>
+            <label for=""> City</label>
+            <br>
+            <input type="text" placeholder="">
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Login Details</legend>
+        <p>
+            <label for="">Email ID:</label>
+            <input type="text" placeholder="">
+        </p>
+
+        <p>
+            <label for=""> Password:</label>
+            <input type="text" placeholder="">
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Course Details</legend>
+        <p>
+            <label for="">Undergraduate : </label>
+            <input name="Undergraduate" type="radio"> <label for="">Yes</label>
+            <input name="Undergraduate" type="radio"> <label for="">No</label>
+        </p>
+
+        <label for="">Subjects:</label>
+        <br>
+        <label for="">English</label>
+        <input type="checkbox">
+        <br>
+        <label for="">Mathematic</label>
+        <input type="checkbox">
+        <br>
+        <label for="">Science</label>
+        <input type="checkbox">
+    </fieldset>
+    <br>
+    <button type="button">Finish</button>
+    <br>
+    <br>
+    <hr>
+
+    <h1>Apartment Search</h1>
+    <fieldset>
+        <legend>Occupant's Information</legend>
+        <label>Occupant's Name </label>
+        <input type="text" placeholder="First name" name="username" required>
+        <input type="text" placeholder="Last name" name="username" required>
+        <br>
+        <br>
+        <label>Phone Number</label>
+        <input type="tel" name="phone" placeholder="Format: 123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        <br>
+        <br>
+        <label>Email Address</label>
+        <input type="email" placeholder="email address">
+    </fieldset>
+
+    <fieldset>
+        <legend>Apartment Information</legend>
+        <label for="">Choose apartment size:</label>
+        <br>
+        <select name="" id="">
+            <option value="0">Studio</option>
+        </select>
+
+        <p>
+            <label for="">Rental Term: </label>
+            <br>
+            <input name="Rental" type="radio"> <label for="">Short Term</label>
+            <br>
+            <input name="Rental" type="radio"> <label for="">Long Term</label>
+            <br>
+            <input name="Rental" type="radio"> <label for="">Both are OK</label>
+        </p>
+        <label for="">Features:</label>
+        <br>
+        <label for="">Balcony</label>
+        <input type="checkbox">
+        <label for="">Higher Floor</label>
+        <input type="checkbox">
+        <label for="">Proximity to Elevators</label>
+        <input type="checkbox">
+        <br>
+        <br>
+        <label for="">Start date:</label>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <label for="">Special Request:
+            <br>
+            <textarea placeholder="Please special request you might have." name="uname" required name="" id="" cols="50"
+                rows="10"></textarea>
+        </label>
+    </fieldset>
+    <br>
+
+
+    <p>Let us fin you the apartment of you dreams...</p>
+    <br>
+    <button type="button">Submit</button>
+    <button type="button">Start over</button>
+    <br>
+    <br>
+    <hr>
+</body>
+
+</html>
